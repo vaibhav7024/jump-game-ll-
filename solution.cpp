@@ -12,7 +12,6 @@ public:
     //     }
     //     return dp[index]= ans;
     // }
-
     int jump(vector<int>& nums) {
         int n = nums.size();
         vector<int> dp(n,n);
